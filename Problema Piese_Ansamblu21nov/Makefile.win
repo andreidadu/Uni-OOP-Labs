@@ -1,0 +1,43 @@
+# Project: Problema Piese_Ansamblu21 nov
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o piesa.o piesa_A.o piesa_B.o ansamblu.o Object.o
+LINKOBJ  = main.o piesa.o piesa_A.o piesa_B.o ansamblu.o Object.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = "Problema Piese_Ansamblu21 nov.exe"
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+piesa.o: piesa.cpp
+	$(CPP) -c piesa.cpp -o piesa.o $(CXXFLAGS)
+
+piesa_A.o: piesa_A.cpp
+	$(CPP) -c piesa_A.cpp -o piesa_A.o $(CXXFLAGS)
+
+piesa_B.o: piesa_B.cpp
+	$(CPP) -c piesa_B.cpp -o piesa_B.o $(CXXFLAGS)
+
+ansamblu.o: ansamblu.cpp
+	$(CPP) -c ansamblu.cpp -o ansamblu.o $(CXXFLAGS)
+
+Object.o: Object.cpp
+	$(CPP) -c Object.cpp -o Object.o $(CXXFLAGS)

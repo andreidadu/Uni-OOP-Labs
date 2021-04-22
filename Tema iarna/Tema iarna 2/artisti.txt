@@ -1,0 +1,66 @@
+An aparitie: 2019  Nume: ALBUM 1 Track-uri: 
+	pozitia: 1  durata: 30 numele: manele
+
+	pozitia: 2  durata: 40 numele: manele manele
+
+	pozitia: 3  durata: 50 numele: franky the boss
+
+	pozitia: 4  durata: 60 numele: dadau
+
+	pozitia: 5  durata: 70 numele: hahaha
+
+An aparitie: 2017  Nume: ALBUM2 Track-uri: 
+	pozitia: 1  durata: 12 numele: Ra
+
+	pozitia: 2  durata: 22 numele: TA
+
+	pozitia: 3  durata: 32 numele: ta
+
+	pozitia: 4  durata: 42 numele: Ta
+
+	pozitia: 5  durata: 52 numele: tA
+
+An aparitie: 2020  Nume: ALBUM3 Track-uri: 
+	pozitia: 1  durata: 25 numele: Multi ani traiasca
+
+	pozitia: 2  durata: 35 numele: Belociraptoru' dance'
+
+	pozitia: 3  durata: 35 numele: Ma ucide ea
+
+	pozitia: 4  durata: 45 numele: Eroina
+
+	pozitia: 5  durata: 55 numele: Acadele
+
+An aparitie: 2019  Nume: ALBUM 1 Track-uri: 
+	pozitia: 1  durata: 30 numele: manele
+
+	pozitia: 2  durata: 40 numele: manele manele
+
+	pozitia: 3  durata: 50 numele: franky the boss
+
+	pozitia: 4  durata: 60 numele: dadau
+
+	pozitia: 5  durata: 70 numele: hahaha
+
+An aparitie: 2017  Nume: ALBUM2 Track-uri: 
+	pozitia: 1  durata: 12 numele: Ra
+
+	pozitia: 2  durata: 22 numele: TA
+
+	pozitia: 3  durata: 32 numele: ta
+
+	pozitia: 4  durata: 42 numele: Ta
+
+	pozitia: 5  durata: 52 numele: tA
+
+An aparitie: 2020  Nume: ALBUM3 Track-uri: 
+	pozitia: 1  durata: 25 numele: Multi ani traiasca
+
+	pozitia: 2  durata: 35 numele: Belociraptoru' dance'
+
+	pozitia: 3  durata: 35 numele: Ma ucide ea
+
+	pozitia: 4  durata: 45 numele: Eroina
+
+	pozitia: 5  durata: 55 numele: Acadele
+
